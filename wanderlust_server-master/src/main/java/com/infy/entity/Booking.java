@@ -20,7 +20,7 @@ import javax.persistence.Table;
 @Table(name="Booking")
 public class Booking {
 	
-	// primary key
+	// primary key  
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer bookingId;
